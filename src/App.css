@@ -1,0 +1,45 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(225, 192, 245);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+  box-sizing: border-box;
+  min-width: 1300px;
+}
+
+.button {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 11px 26px;
+  border-radius: 34px;
+  border: none;
+  outline: none;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--orange);
+  background: #ffffff;
+  border: 1px solid var(--orange);
+}
+
+.blur {
+  z-index: -9;
+  height: 8rem;
+  width: 5rem;
+  filter: blur(70px);
+  border-radius: 50%;
+  /* position: absolute; */
+}

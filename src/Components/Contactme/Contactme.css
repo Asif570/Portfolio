@@ -1,0 +1,51 @@
+.contactme {
+  display: flex;
+  height: 90vh;
+  margin-top: 8rem;
+  padding: 0 3rem;
+}
+.c-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.c-left > * {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+}
+.c-left span:nth-of-type(2) {
+  color: var(--orange);
+}
+.c-right {
+  flex: 1;
+}
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right > form > textarea {
+  width: 20rem;
+  border: 2px solid var(--orange);
+  border-radius: 18px;
+  outline: none;
+  height: 5rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.c-right > form > input {
+  height: 2rem;
+  width: 20rem;
+  border: 2px solid var(--orange);
+  border-radius: 18px;
+  outline: none;
+
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.c-right > form > *::placeholder {
+  font-size: 0.7rem;
+}

@@ -1,0 +1,32 @@
+.card {
+  width: 10rem;
+  height: 13rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  align-items: center;
+  width: 10rem;
+  background: #00000002;
+  border: 7px solid var(--orangeCard);
+
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0 26px 2rem 26px;
+}
+
+.card > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+}
+.c-button {
+  background: #ffffff;
+  box-shadow: 0 19px 70px #00000002;
+  border-radius: 7px;
+  border: none;
+  padding: 0.8rem;
+  font-size: 16px;
+  color: #29b7f9;
+  cursor: pointer;
+}
